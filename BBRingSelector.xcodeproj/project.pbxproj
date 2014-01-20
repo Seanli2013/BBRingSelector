@@ -14,13 +14,17 @@
 		3DD8FB5E188D6A5C0009E25E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8FB5D188D6A5C0009E25E /* main.m */; };
 		3DD8FB62188D6A5C0009E25E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8FB61188D6A5C0009E25E /* AppDelegate.m */; };
 		3DD8FB65188D6A5C0009E25E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8FB63188D6A5C0009E25E /* Main.storyboard */; };
-		3DD8FB68188D6A5C0009E25E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8FB67188D6A5C0009E25E /* ViewController.m */; };
 		3DD8FB6A188D6A5C0009E25E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8FB69188D6A5C0009E25E /* Images.xcassets */; };
 		3DD8FB71188D6A5C0009E25E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD8FB70188D6A5C0009E25E /* XCTest.framework */; };
 		3DD8FB72188D6A5C0009E25E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD8FB51188D6A5C0009E25E /* Foundation.framework */; };
 		3DD8FB73188D6A5C0009E25E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD8FB55188D6A5C0009E25E /* UIKit.framework */; };
 		3DD8FB7B188D6A5C0009E25E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8FB79188D6A5C0009E25E /* InfoPlist.strings */; };
 		3DD8FB7D188D6A5C0009E25E /* BBRingSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8FB7C188D6A5C0009E25E /* BBRingSelectorTests.m */; };
+		3DD8FB88188D78060009E25E /* BBRingSelectorTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8FB87188D78060009E25E /* BBRingSelectorTVC.m */; };
+		3DD8FB8B188D7B330009E25E /* AudioConfigData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8FB8A188D7B330009E25E /* AudioConfigData.m */; };
+		3DD8FB8F188D7EE50009E25E /* ding_7s.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8FB8C188D7EE50009E25E /* ding_7s.caf */; };
+		3DD8FB90188D7EE50009E25E /* piano_8s.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8FB8D188D7EE50009E25E /* piano_8s.caf */; };
+		3DD8FB91188D7EE50009E25E /* systemdefault_1s.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8FB8E188D7EE50009E25E /* systemdefault_1s.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,19 @@
 		3DD8FB60188D6A5C0009E25E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DD8FB61188D6A5C0009E25E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3DD8FB64188D6A5C0009E25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3DD8FB66188D6A5C0009E25E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DD8FB67188D6A5C0009E25E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3DD8FB69188D6A5C0009E25E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3DD8FB6F188D6A5C0009E25E /* BBRingSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBRingSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD8FB70188D6A5C0009E25E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3DD8FB78188D6A5C0009E25E /* BBRingSelectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBRingSelectorTests-Info.plist"; sourceTree = "<group>"; };
 		3DD8FB7A188D6A5C0009E25E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3DD8FB7C188D6A5C0009E25E /* BBRingSelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBRingSelectorTests.m; sourceTree = "<group>"; };
+		3DD8FB86188D78060009E25E /* BBRingSelectorTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBRingSelectorTVC.h; sourceTree = "<group>"; };
+		3DD8FB87188D78060009E25E /* BBRingSelectorTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBRingSelectorTVC.m; sourceTree = "<group>"; };
+		3DD8FB89188D7B330009E25E /* AudioConfigData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioConfigData.h; sourceTree = "<group>"; };
+		3DD8FB8A188D7B330009E25E /* AudioConfigData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioConfigData.m; sourceTree = "<group>"; };
+		3DD8FB8C188D7EE50009E25E /* ding_7s.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ding_7s.caf; sourceTree = "<group>"; };
+		3DD8FB8D188D7EE50009E25E /* piano_8s.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = piano_8s.caf; sourceTree = "<group>"; };
+		3DD8FB8E188D7EE50009E25E /* systemdefault_1s.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = systemdefault_1s.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,13 @@
 				3DD8FB60188D6A5C0009E25E /* AppDelegate.h */,
 				3DD8FB61188D6A5C0009E25E /* AppDelegate.m */,
 				3DD8FB63188D6A5C0009E25E /* Main.storyboard */,
-				3DD8FB66188D6A5C0009E25E /* ViewController.h */,
-				3DD8FB67188D6A5C0009E25E /* ViewController.m */,
+				3DD8FB86188D78060009E25E /* BBRingSelectorTVC.h */,
+				3DD8FB87188D78060009E25E /* BBRingSelectorTVC.m */,
+				3DD8FB89188D7B330009E25E /* AudioConfigData.h */,
+				3DD8FB8A188D7B330009E25E /* AudioConfigData.m */,
+				3DD8FB8C188D7EE50009E25E /* ding_7s.caf */,
+				3DD8FB8D188D7EE50009E25E /* piano_8s.caf */,
+				3DD8FB8E188D7EE50009E25E /* systemdefault_1s.caf */,
 				3DD8FB69188D6A5C0009E25E /* Images.xcassets */,
 				3DD8FB58188D6A5C0009E25E /* Supporting Files */,
 			);
@@ -230,7 +244,10 @@
 			files = (
 				3DD8FB6A188D6A5C0009E25E /* Images.xcassets in Resources */,
 				3DD8FB5C188D6A5C0009E25E /* InfoPlist.strings in Resources */,
+				3DD8FB8F188D7EE50009E25E /* ding_7s.caf in Resources */,
 				3DD8FB65188D6A5C0009E25E /* Main.storyboard in Resources */,
+				3DD8FB90188D7EE50009E25E /* piano_8s.caf in Resources */,
+				3DD8FB91188D7EE50009E25E /* systemdefault_1s.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DD8FB68188D6A5C0009E25E /* ViewController.m in Sources */,
+				3DD8FB88188D78060009E25E /* BBRingSelectorTVC.m in Sources */,
 				3DD8FB62188D6A5C0009E25E /* AppDelegate.m in Sources */,
+				3DD8FB8B188D7B330009E25E /* AudioConfigData.m in Sources */,
 				3DD8FB5E188D6A5C0009E25E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
