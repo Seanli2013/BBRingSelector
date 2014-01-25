@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  BBRingSelector
 //
-//  Created by Xiang LI on 14-1-20.
+//  Created by 大钟威武 on 14-1-20.
 //  Copyright (c) 2014年 bigbelldev.com. All rights reserved.
 //
 
