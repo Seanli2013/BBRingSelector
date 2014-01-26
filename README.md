@@ -16,4 +16,7 @@ mp3、aiff文件转换成caf文件的方法：
 	
 	afconvert xx.mp3 yy.caf -d ima4 -f caff -v
 	
+#### 联系方式
+	@大钟威武
+	mail:lixiang02thu@gmail.com
 	
