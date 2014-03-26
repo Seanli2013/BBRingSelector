@@ -18,5 +18,5 @@ mp3、aiff文件转换成caf文件的方法：
 	
 #### 联系方式
 	@大钟威武
-	mail:lixiang02thu@gmail.com
+	email:bigbelldev@gmail.com
 	
